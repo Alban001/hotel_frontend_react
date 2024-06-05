@@ -1,0 +1,9 @@
+.header-app{
+    background-color: rgb(130, 182, 242);
+    color:rgb(2, 0, 0);
+    text-align: center;
+    ul>li{
+        list-style: none;
+        padding: 0.5rem;
+    }
+}

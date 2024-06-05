@@ -1,11 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import RegisterPage from '../../Pages/RegisterPage'
+import '../../styles/mainHeader.css'
 
 
 const PrincipalHeader = () => {
   return (
-    <header>
+    <header className='header-app'>
         <h1><Link to='/'>Hotels App</Link></h1>
         <nav>
       <ul>

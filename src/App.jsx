@@ -13,12 +13,13 @@ import ProtectdRoutes from './Pages/ProtectdRoutes'
 
 function App() {
   
+  
   const hotels = useSelector(state => state.hotels)
 
   const dispatch= useDispatch()
 
    useEffect(()=> {
-    const url='https://hotels-api.academlo.tech/hotels'
+    const url='https://entreg6-backend-xd1n.onrender.com/hotels'
     dispatch(getReducerThunk(url))
    },[])
   
